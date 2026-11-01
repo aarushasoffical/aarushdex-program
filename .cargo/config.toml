@@ -1,0 +1,7 @@
+[http]
+timeout = 120
+low-speed-limit = 1
+multiplexing = false
+
+[net]
+retry = 5
