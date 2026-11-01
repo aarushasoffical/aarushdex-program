@@ -1,0 +1,22 @@
+skip_local_validator = true
+
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+dex = "H6UKMGJB2ge93xvcE2WyoLDWYKtyqAKXKGid4nath757"
+
+[programs.mainnet]
+dex = "H6UKMGJB2ge93xvcE2WyoLDWYKtyqAKXKGid4nath757"
+
+[provider]
+cluster = "Mainnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]

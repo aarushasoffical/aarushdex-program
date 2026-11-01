@@ -1,0 +1,18 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+.surfpool
+
+# Local backups and recovery files
+app/test-dex.backup.ts
+aux-aarush-fee.json
+recover-aarush-avm.cjs
+programs/dex/src/lib.rs.backup
+programs/dex/src/lib.rs.mainnet-fee-backup
+programs/dex/src/lib.rs.pre-*.bak
+programs/dex/src/lib.rs.save*
+*:Zone.Identifier
